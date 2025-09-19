@@ -1,0 +1,6 @@
+from calculations.salary_calculations import add_bonus
+
+salary = 1000
+bonus = 944
+salary_with_bonus = add_bonus(salary, bonus)
+print(salary_with_bonus)
